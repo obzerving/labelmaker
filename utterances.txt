@@ -1,0 +1,22 @@
+RouteNumber {wholenumber}
+RouteNumber point {decimal}
+RouteNumber {wholenumber} point {decimal}
+RouteNumber {wholenumber} and {numerator} {denominator}
+RouteNumber {wholenumber} and a {denominator}
+RouteNumber {wholenumber} and an {denominator}
+LinesIntent {lines} line
+LinesIntent {lines} lines
+CopiesIntent {copies} copy
+CopiesIntent {copies} copy
+YesIntent yes
+YesIntent sure
+YesIntent okay
+NoIntent no
+CatchAllIntent {anythinga}
+CatchAllIntent {anythinga} {anythingb}
+CatchAllIntent {anythinga} {anythingb} {anythingc}
+CatchAllIntent {anythinga} {anythingb} {anythingc} {anythingd}
+CatchAllIntent {anythinga} {anythingb} {anythingc} {anythingd} {anythinge}
+CatchAllIntent {anythinga} {anythingb} {anythingc} {anythingd} {anythinge} {anythingf}
+CatchAllIntent {anythinga} {anythingb} {anythingc} {anythingd} {anythinge} {anythingf} {anythingg}
+CatchAllIntent {anythinga} {anythingb} {anythingc} {anythingd} {anythinge} {anythingf} {anythingg} {anythingh}

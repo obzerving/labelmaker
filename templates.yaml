@@ -1,0 +1,19 @@
+welcome: Welcome to label maker. How many lines of text will there be in this label?
+reprompt: I didn't quite get that. Please state again how many lines this label will have or say cancel.
+asknumber: I didn't understand that number. Please say it again or say cancel.
+oneline: What should I put on the line?
+multiline: What should I put on the first line?
+linehelp: I didn't get that. You can state what you want on the label's line or say cancel.
+nextline: What should I put on the next line?
+asksize: How many inches do you want the label to be?
+askcopies: How many copies of the label do you want?
+message: The label will be as long as it needs to be and will say {{msg}}. Shall I print it?
+messages: The label will be as long as it needs to be and will say {{msg}}. Shall I print {{copies}} copies of it?
+sizemsg: The label will be {{labelsize}} inches and will say {{msg}}. Shall I print it?
+sizemsgs: The label will be {{labelsize}} inches and will say {{msg}}. Shall I print {{copies}} copies of it?
+zerocopy: There should be at least one copy made. Tell me how many you want or say cancel.
+zeroline: There should be at least one line on the label. Tell me how many you want or say cancel.
+result: Your label has been printed.
+imfail: There was a problem creating the label image so I didn't send it to the printer.
+cancel: Okay. We'll try some other time.
+stop: Okay. We'll try some other time.

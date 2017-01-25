@@ -1,0 +1,92 @@
+{
+  "intents": [
+    {
+      "intent": "YesIntent"
+    },
+    {
+      "intent": "NoIntent"
+    },
+        {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "LinesIntent",
+      "slots": [
+        {
+          "name": "lines",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "CopiesIntent",
+      "slots": [
+        {
+          "name": "copies",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "RouteNumber",
+      "slots": [
+        {
+          "name": "wholenumber",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "decimal",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "numerator",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "denominator",
+          "type": "DENOMINATOR"
+        }
+      ]
+    },
+    {
+      "intent": "CatchAllIntent",
+      "slots": [
+        {
+          "name": "anythinga",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingb",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingc",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingd",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythinge",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingf",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingg",
+          "type": "CATCHALL"
+        },
+        {
+          "name": "anythingh",
+          "type": "CATCHALL"
+        }
+      ]
+    }
+  ]
+}
